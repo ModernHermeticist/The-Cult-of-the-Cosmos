@@ -1,0 +1,25 @@
+﻿  Map.cpp
+g:\thecultofthecosmos\thecultofthecosmos\libtcod\include\libtcod\color.hpp(159): warning C4244: 'initializing': conversion from 'int' to 'uint8_t', possible loss of data
+g:\thecultofthecosmos\thecultofthecosmos\map.cpp(25): warning C4189: 'rng': local variable is initialized but not referenced
+g:\thecultofthecosmos\thecultofthecosmos\map.cpp(74): warning C4458: declaration of 'width' hides class member
+  g:\thecultofthecosmos\thecultofthecosmos\map.h(11): note: see declaration of 'Map::width'
+g:\thecultofthecosmos\thecultofthecosmos\map.cpp(74): warning C4458: declaration of 'height' hides class member
+  g:\thecultofthecosmos\thecultofthecosmos\map.h(11): note: see declaration of 'Map::height'
+g:\thecultofthecosmos\thecultofthecosmos\map.cpp(74): warning C4100: 'a': unreferenced formal parameter
+g:\thecultofthecosmos\thecultofthecosmos\map.cpp(74): warning C4100: 'withActors': unreferenced formal parameter
+g:\thecultofthecosmos\thecultofthecosmos\map.cpp(78): warning C4189: 'i': local variable is initialized but not referenced
+g:\thecultofthecosmos\thecultofthecosmos\map.cpp(227): warning C4458: declaration of 'rng' hides class member
+  g:\thecultofthecosmos\thecultofthecosmos\map.h(37): note: see declaration of 'Map::rng'
+g:\thecultofthecosmos\thecultofthecosmos\map.cpp(266): warning C4458: declaration of 'rng' hides class member
+  g:\thecultofthecosmos\thecultofthecosmos\map.h(37): note: see declaration of 'Map::rng'
+g:\thecultofthecosmos\thecultofthecosmos\map.cpp(272): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\thecultofthecosmos\thecultofthecosmos\map.cpp(274): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\thecultofthecosmos\thecultofthecosmos\map.cpp(284): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\thecultofthecosmos\thecultofthecosmos\map.cpp(286): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\thecultofthecosmos\thecultofthecosmos\map.cpp(296): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\thecultofthecosmos\thecultofthecosmos\map.cpp(298): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\thecultofthecosmos\thecultofthecosmos\map.cpp(308): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\thecultofthecosmos\thecultofthecosmos\map.cpp(310): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\thecultofthecosmos\thecultofthecosmos\map.cpp(320): warning C4458: declaration of 'rng' hides class member
+  g:\thecultofthecosmos\thecultofthecosmos\map.h(37): note: see declaration of 'Map::rng'
+  TheCultOfTheCosmos.vcxproj -> G:\TheCultOfTheCosmos\x64\Debug\TheCultOfTheCosmos.exe

@@ -1,0 +1,72 @@
+{
+	"Characters":
+	{
+		"Dying Knight-Errant":
+		{
+			"NodeOne":
+			{
+				"body": "\"Ah, there you are.\nI see you've found my note.\nI'm sure you have many questions.\"\n",
+				"responses": 
+				{
+					"first": "Who are you?\n",
+					"second": "Where am I?\n"
+				},
+				"goTo": ["NodeTwo", "NodeThree"]
+			},
+			"NodeTwo":
+			{
+				"body": "\"Well now that is an interesting question.\"\n",
+				"responses":
+				{
+					"first": "What do you mean?\n",
+					"second": "Please, help me!\n",
+					"third": "I don't have time for this!\n"
+				},
+				"goTo": ["NodeFour", "NodeFive", "ExitNode"]
+			},
+			"NodeThree":
+			{
+				"body": "\"Just look around.\nYou're in hell itself.\"\n",
+				"responses":
+				{
+					"first": "Who are you?\n"
+				},
+				"goTo": ["NodeTwo"]
+			},
+			"NodeFour":
+			{
+				"body": "He chuckles under his breath.\n\n\"I've spent my whole life seeking the answer to that question.\"\n\nHe leans his head back and closes his eyes.\n",
+				"responses":
+				{
+					"first": "Please, help me!\n",
+					"second": "You're useless.\n"
+				},
+				"goTo": ["NodeFive", "ExitNode"]
+			},
+			"NodeFive":
+			{
+				"body": "\"No one can help you, you fool.\nYou were damned the moment you entered this cursed nightmare realm.\nAll you can hope to do is fight and survive.\nMaybe you'll survive long enough to find another poor soul down here.\"\n",
+				"responses": 
+				{
+					"first": "...\n"
+				},
+				"goTo": ["ExitNode"]
+			}
+		}
+	},
+	"Statues":
+	{
+		"Statue of Lady Liana":
+		{
+			"NodeOne":
+			{
+				"body": "A statue of finely carved stone.\nIt depicts a woman thrusting a sword to the sky.\nYou can read an engraving towards the bottom.\n\n\"Our divine Lady Liana,\nKnight-Paladin of the White Lily\"\n",
+				"responses":
+				{
+					"first": "...\n"
+				},
+				"goTo": ["ExitNode"]
+			}
+		}
+	}
+}
